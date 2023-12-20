@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A22FC9C42B32EA3A003A7954 /* InlineConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22FC9C32B32EA3A003A7954 /* InlineConfigurable.swift */; };
+		A22FC9C72B330D03003A7954 /* UnderlineTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22FC9C62B330D03003A7954 /* UnderlineTextFieldView.swift */; };
+		A22FC9CB2B3319EE003A7954 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22FC9C92B3319EE003A7954 /* ViewModel.swift */; };
+		A22FC9CC2B3319EE003A7954 /* UIViewController+bindViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22FC9CA2B3319EE003A7954 /* UIViewController+bindViewModel.swift */; };
+		A22FC9CE2B331A8C003A7954 /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22FC9CD2B331A8C003A7954 /* CalculatorViewModel.swift */; };
+		A22FC9D02B331B10003A7954 /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22FC9CF2B331B10003A7954 /* Bag.swift */; };
+		A22FC9D22B331B3B003A7954 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22FC9D12B331B3B003A7954 /* Combine.swift */; };
+		A22FC9D52B331C26003A7954 /* CourseHandicapParamsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22FC9D42B331C26003A7954 /* CourseHandicapParamsModel.swift */; };
 		A2F3CDA12B32DF3900F6131B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F3CDA02B32DF3900F6131B /* AppDelegate.swift */; };
 		A2F3CDA32B32DF3900F6131B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F3CDA22B32DF3900F6131B /* SceneDelegate.swift */; };
-		A2F3CDA52B32DF3900F6131B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F3CDA42B32DF3900F6131B /* ViewController.swift */; };
-		A2F3CDA82B32DF3900F6131B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2F3CDA62B32DF3900F6131B /* Main.storyboard */; };
+		A2F3CDA52B32DF3900F6131B /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F3CDA42B32DF3900F6131B /* CalculatorViewController.swift */; };
 		A2F3CDAA2B32DF3B00F6131B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F3CDA92B32DF3B00F6131B /* Assets.xcassets */; };
 		A2F3CDAD2B32DF3B00F6131B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2F3CDAB2B32DF3B00F6131B /* LaunchScreen.storyboard */; };
+		ED882DFB79A8C3E956176786 /* Pods_CourseHandicapCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF45224A09C5660A124227FF /* Pods_CourseHandicapCalculator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1231D23A073EE202986345CB /* Pods-CourseHandicapCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourseHandicapCalculator.release.xcconfig"; path = "Target Support Files/Pods-CourseHandicapCalculator/Pods-CourseHandicapCalculator.release.xcconfig"; sourceTree = "<group>"; };
+		674F3BC16F810F8B41F9D95B /* Pods-CourseHandicapCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourseHandicapCalculator.debug.xcconfig"; path = "Target Support Files/Pods-CourseHandicapCalculator/Pods-CourseHandicapCalculator.debug.xcconfig"; sourceTree = "<group>"; };
+		A22FC9C32B32EA3A003A7954 /* InlineConfigurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InlineConfigurable.swift; sourceTree = "<group>"; };
+		A22FC9C62B330D03003A7954 /* UnderlineTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderlineTextFieldView.swift; sourceTree = "<group>"; };
+		A22FC9C92B3319EE003A7954 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		A22FC9CA2B3319EE003A7954 /* UIViewController+bindViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+bindViewModel.swift"; sourceTree = "<group>"; };
+		A22FC9CD2B331A8C003A7954 /* CalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModel.swift; sourceTree = "<group>"; };
+		A22FC9CF2B331B10003A7954 /* Bag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bag.swift; sourceTree = "<group>"; };
+		A22FC9D12B331B3B003A7954 /* Combine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Combine.swift; sourceTree = "<group>"; };
+		A22FC9D42B331C26003A7954 /* CourseHandicapParamsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseHandicapParamsModel.swift; sourceTree = "<group>"; };
 		A2F3CD9D2B32DF3900F6131B /* CourseHandicapCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CourseHandicapCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F3CDA02B32DF3900F6131B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2F3CDA22B32DF3900F6131B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A2F3CDA42B32DF3900F6131B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A2F3CDA72B32DF3900F6131B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2F3CDA42B32DF3900F6131B /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		A2F3CDA92B32DF3B00F6131B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2F3CDAC2B32DF3B00F6131B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2F3CDAE2B32DF3B00F6131B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF45224A09C5660A124227FF /* Pods_CourseHandicapCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CourseHandicapCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,71 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED882DFB79A8C3E956176786 /* Pods_CourseHandicapCalculator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35510399FB9F4B00666A7A42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF45224A09C5660A124227FF /* Pods_CourseHandicapCalculator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A22FC9C22B32EA2D003A7954 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A22FC9C92B3319EE003A7954 /* ViewModel.swift */,
+				A22FC9CF2B331B10003A7954 /* Bag.swift */,
+				A22FC9D12B331B3B003A7954 /* Combine.swift */,
+				A22FC9CA2B3319EE003A7954 /* UIViewController+bindViewModel.swift */,
+				A22FC9C32B32EA3A003A7954 /* InlineConfigurable.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A22FC9C52B330C9C003A7954 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A22FC9C62B330D03003A7954 /* UnderlineTextFieldView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A22FC9C82B3319BC003A7954 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A22FC9CD2B331A8C003A7954 /* CalculatorViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A22FC9D32B331BFB003A7954 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A22FC9D42B331C26003A7954 /* CourseHandicapParamsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A22FC9D62B332411003A7954 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
 		A2F3CD942B32DF3900F6131B = {
 			isa = PBXGroup;
 			children = (
 				A2F3CD9F2B32DF3900F6131B /* CourseHandicapCalculator */,
 				A2F3CD9E2B32DF3900F6131B /* Products */,
+				B6864EDAD638E65229B9587A /* Pods */,
+				35510399FB9F4B00666A7A42 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +128,60 @@
 		A2F3CD9F2B32DF3900F6131B /* CourseHandicapCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				A2F3CDAE2B32DF3B00F6131B /* Info.plist */,
 				A2F3CDA02B32DF3900F6131B /* AppDelegate.swift */,
 				A2F3CDA22B32DF3900F6131B /* SceneDelegate.swift */,
-				A2F3CDA42B32DF3900F6131B /* ViewController.swift */,
-				A2F3CDA62B32DF3900F6131B /* Main.storyboard */,
-				A2F3CDA92B32DF3B00F6131B /* Assets.xcassets */,
-				A2F3CDAB2B32DF3B00F6131B /* LaunchScreen.storyboard */,
-				A2F3CDAE2B32DF3B00F6131B /* Info.plist */,
+				A2F3CDB52B32DF6A00F6131B /* Modules */,
+				A2F3CDB42B32DF5D00F6131B /* Resources */,
+				A22FC9C22B32EA2D003A7954 /* Helpers */,
 			);
 			path = CourseHandicapCalculator;
+			sourceTree = "<group>";
+		};
+		A2F3CDB42B32DF5D00F6131B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A2F3CDA92B32DF3B00F6131B /* Assets.xcassets */,
+				A2F3CDAB2B32DF3B00F6131B /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A2F3CDB52B32DF6A00F6131B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A2F3CDB72B32E1AD00F6131B /* Calculator */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A2F3CDB72B32E1AD00F6131B /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				A22FC9D62B332411003A7954 /* Coordinator */,
+				A22FC9D32B331BFB003A7954 /* Model */,
+				A22FC9C82B3319BC003A7954 /* ViewModel */,
+				A22FC9C52B330C9C003A7954 /* Views */,
+				A2F3CDB82B32E1B300F6131B /* ViewController */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		A2F3CDB82B32E1B300F6131B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A2F3CDA42B32DF3900F6131B /* CalculatorViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B6864EDAD638E65229B9587A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				674F3BC16F810F8B41F9D95B /* Pods-CourseHandicapCalculator.debug.xcconfig */,
+				1231D23A073EE202986345CB /* Pods-CourseHandicapCalculator.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2F3CDB12B32DF3B00F6131B /* Build configuration list for PBXNativeTarget "CourseHandicapCalculator" */;
 			buildPhases = (
+				B89320C1B1A9091E54082C5A /* [CP] Check Pods Manifest.lock */,
 				A2F3CD992B32DF3900F6131B /* Sources */,
 				A2F3CD9A2B32DF3900F6131B /* Frameworks */,
 				A2F3CD9B2B32DF3900F6131B /* Resources */,
+				6A7D5FEFE96048BB76988FC4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +246,75 @@
 			files = (
 				A2F3CDAD2B32DF3B00F6131B /* LaunchScreen.storyboard in Resources */,
 				A2F3CDAA2B32DF3B00F6131B /* Assets.xcassets in Resources */,
-				A2F3CDA82B32DF3900F6131B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A7D5FEFE96048BB76988FC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CourseHandicapCalculator/Pods-CourseHandicapCalculator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CourseHandicapCalculator/Pods-CourseHandicapCalculator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CourseHandicapCalculator/Pods-CourseHandicapCalculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B89320C1B1A9091E54082C5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CourseHandicapCalculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A2F3CD992B32DF3900F6131B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2F3CDA52B32DF3900F6131B /* ViewController.swift in Sources */,
+				A22FC9D52B331C26003A7954 /* CourseHandicapParamsModel.swift in Sources */,
+				A22FC9CC2B3319EE003A7954 /* UIViewController+bindViewModel.swift in Sources */,
+				A2F3CDA52B32DF3900F6131B /* CalculatorViewController.swift in Sources */,
+				A22FC9CE2B331A8C003A7954 /* CalculatorViewModel.swift in Sources */,
+				A22FC9D22B331B3B003A7954 /* Combine.swift in Sources */,
 				A2F3CDA12B32DF3900F6131B /* AppDelegate.swift in Sources */,
 				A2F3CDA32B32DF3900F6131B /* SceneDelegate.swift in Sources */,
+				A22FC9CB2B3319EE003A7954 /* ViewModel.swift in Sources */,
+				A22FC9C42B32EA3A003A7954 /* InlineConfigurable.swift in Sources */,
+				A22FC9D02B331B10003A7954 /* Bag.swift in Sources */,
+				A22FC9C72B330D03003A7954 /* UnderlineTextFieldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A2F3CDA62B32DF3900F6131B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A2F3CDA72B32DF3900F6131B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A2F3CDAB2B32DF3B00F6131B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +442,7 @@
 		};
 		A2F3CDB22B32DF3B00F6131B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 674F3BC16F810F8B41F9D95B /* Pods-CourseHandicapCalculator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +453,6 @@
 				INFOPLIST_FILE = CourseHandicapCalculator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +470,7 @@
 		};
 		A2F3CDB32B32DF3B00F6131B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1231D23A073EE202986345CB /* Pods-CourseHandicapCalculator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +481,6 @@
 				INFOPLIST_FILE = CourseHandicapCalculator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
