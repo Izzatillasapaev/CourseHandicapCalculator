@@ -10,7 +10,7 @@ import Combine
 
 enum CalculatorEvent {
     case showError(String)
-    case showResult(Double)
+    case showResult(Int)
 }
 
 enum CalculatorAction {
@@ -56,8 +56,8 @@ final class CalculatorViewModel: ViewModel<CalculatorEvent, CalculatorAction> {
             return
         }
         
-        let courseHandicap = handicapIndex * (slopeRating / 113) + (coureRating - par)
+        let courseHandicap = (handicapIndex * (slopeRating / 113) + (coureRating - par)).rounded()
         
-        sendEvent(.showResult(courseHandicap))
+        sendEvent(.showResult(Int(courseHandicap)))
     }
 }

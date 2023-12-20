@@ -128,7 +128,7 @@ private extension CalculatorViewController {
         resultLabel.text = error
     }
     
-    func showResult(result: Double) {
+    func showResult(result: Int) {
         resultLabel.textColor = .black
         resultLabel.text = "Your Course Handicap is: \(result)"
     }
